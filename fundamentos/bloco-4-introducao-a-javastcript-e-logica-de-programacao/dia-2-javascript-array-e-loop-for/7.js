@@ -6,5 +6,4 @@ for (let index = 1; index < numbers.length; index += 1) {
         menor = numbers[index]
     };
 };
- menor
 console.log(menor);
