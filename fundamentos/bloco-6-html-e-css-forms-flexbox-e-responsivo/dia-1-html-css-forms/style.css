@@ -1,0 +1,20 @@
+header {
+    line-height: 20px;
+    margin: auto;
+    color: #59595B;
+    font-size: 30px;
+    align-self: center;
+    border: solid 3px green;
+}
+form {
+    line-height: 30px;
+    padding: 20px;
+    border: solid 4px black;
+}
+#opcoes input label{
+    display: grid;
+    margin-left: 10px;
+}
+fieldset{
+    
+}
