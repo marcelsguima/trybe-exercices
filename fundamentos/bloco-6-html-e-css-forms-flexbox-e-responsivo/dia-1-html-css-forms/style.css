@@ -1,3 +1,5 @@
+
+
 header {
     line-height: 20px;
     margin: auto;
@@ -15,6 +17,9 @@ form {
     display: grid;
     margin-left: 10px;
 }
-fieldset{
-    
+
+button{
+    padding: 2px;
+    border-radius: 3px;
+    margin-top: 10px;
 }

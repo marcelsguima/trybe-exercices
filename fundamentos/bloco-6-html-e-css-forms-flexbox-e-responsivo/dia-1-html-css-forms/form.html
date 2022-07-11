@@ -11,30 +11,46 @@
 
     <form action="">
       <fieldset id="user" class="field">
-      Nome: <input type="text" placeholder="Nome" id="inputNameUser"><br>
-      Email: <input type="text" placeholder="Email" id="inputEmailUser">
+      Nome: <input type="text" placeholder="Nome" id="inputNameUser" mixlength="10" maxlength="40"><br>
+      Email: <input type="text" placeholder="Email" id="inputEmailUser" mixlength="10" maxlength="50">
     </fieldset>
 
     <fieldset id="opcoes">
       <input type="radio" id="op1" value="op1" name="opcao1">
-      <label for="op1"> Opção 1</label>
+      <label for="op1"> Cidade</label>
       <input type="radio" id="op2" value="op2" name="opcao2">
-      <label for="op2"> Opção 2</label>
+      <label for="op2"> Campo</label>
       <input type="radio" id="op3" value="op3" name="opcao3">
-      <label for="op3"> Opção 3</label>
+      <label for="op3"> Praia</label>
       <input type="radio" id="op4" value="op4" name="opcao4">
-      <label for="op4"> Opção 4</label>
+      <label for="op4"> Montanhas</label>
       </fieldset>
 
-      <label for="resposta">Digite sua resposta:</label>
+      <label for="pergunta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
       <br />
-      <textarea name="respostas" id="respostas" cols="60" rows="10" placeholder="Digite aqui sua resposta."></textarea>
+      <textarea name="pergunta" id="pergunta" cols="60" rows="10" placeholder="Digite aqui sua resposta." maxlength="500"></textarea>
       <br />
     
-    </form>
+      <form action="">
+        <fieldset id="date" class="field">
+          <label>Qual a melhor data para realizar sua viagem?</label>
+            <div> <input type="date" placeholder="dd/mm/aaaa" id="inputNameUser" mixlength="10" maxlength="40"><br></div>
+      </fieldset>
 
-    <main></main>
-    <footer></footer>
+      <fieldset id="acordo">
+        <label>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+          <div></div><input type="radio" id="op1" value="op1" name="opnao">
+            <label for="opnao"> Não</label><br>
+            <input type="radio" id="op2" value="op2" name="opsim">
+            <label for="opsim"> Sim</label>
+          </div>
+      </fieldset>
+
+    </form>
+<button id="send" input type="submit">Enviar</button>
+<button id="delete" input type="">Apagar</button>
+    
+    
     <script src="script.js"></script>
   </body>
 </html>
